@@ -119,6 +119,34 @@ main{
 }
 
 
+/* Facts section */
+.facts-card-container .card{
+border: 1px solid rgb(255, 144, 14);
+border-radius: 8px;
+text-align: center;
+padding:30px;
+}
+
+.facts-card-container .card-stats{
+    font-size: 45px;
+font-weight: 600;
+color: #424242;
+margin-top: 10px;
+margin-bottom:10px;
+}
+
+.facts-card-container .card-title{
+font-weight: 600px;
+font-size: 20px;
+color: rgb(114, 114, 114);
+margin:10px;
+}
+
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 /* responsive media queries */
